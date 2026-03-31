@@ -6,6 +6,7 @@ import NavBar from './Component/NavBar/NavBar'
 import Tabs from './Component/Tabs/Tabs'
 import Datum from './Datum/Datum'
 import Carts from './Component/Carts/Carts'
+import Hero from './Component/Hero/Hero'
 
 
 
@@ -30,6 +31,8 @@ function App() {
     <>
       <NavBar showCarts={showCarts} />
 
+      <Hero />
+
       <Tabs activeTab={activeTab} setActiveTab={setActiveTab} showCarts={showCarts} />
 
       {
@@ -42,7 +45,7 @@ function App() {
         )   :
 
         (
-          <Carts showCarts={showCarts} />
+          <Carts showCarts={showCarts} setShowCarts={setShowCarts} />
         )
       }
 

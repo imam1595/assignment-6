@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import FeaturesCard from './FeaturesCard';
+import { toast } from 'react-toastify';
+import { IoMdCheckmark } from 'react-icons/io';
 
 const Card = ({data, setShowCarts}) => {
 
@@ -15,14 +17,20 @@ const Card = ({data, setShowCarts}) => {
     const handleBuyBtn = () => {
         // console.log(data);
 
-        setBuyNow(true);
+        // setBuyNow(true);
+
+        // alert("you agt it");
+        // toast.success("Item added to the cart!");
         
         setShowCarts(curs => {
             const exist = curs.find(cur => cur.id === data.id);
 
             if(exist) {
+                toast.warning("Already exist!");
                 return curs;
             } else {
+                toast.success("Item added to the cart!");
+                setBuyNow(true);
                 return [...curs, data]
             }
         })
@@ -53,7 +61,15 @@ const Card = ({data, setShowCarts}) => {
 
                 </ul>
                 <div className="mt-6">
-                    <button onClick={handleBuyBtn} className={buyNow ? "btn btn-success btn-block" : "btn btn-accent btn-block"}>{buyNow ? "Add to Cart" : "Buy Now"}</button>
+                    <button onClick={handleBuyBtn} className={buyNow ? "btn btn-success btn-block" : "btn btn-accent btn-block"}>{buyNow ? 
+                    
+                    (
+                        <div className='flex justify-center items-center gap-10'>
+                            <IoMdCheckmark />
+                            <h1>Add to Cart</h1>
+                        </div>
+                    ) : "Buy Now"}</button>
+                     
                 </div>
             </div>
         </div>
