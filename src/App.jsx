@@ -8,6 +8,7 @@ import Datum from './Datum/Datum'
 import Carts from './Component/Carts/Carts'
 import Hero from './Component/Hero/Hero'
 import ActiveUsers from './Component/ActiveUsers/ActiveUsers'
+import Transform from './Component/Transform/Transform'
 
 
 
@@ -54,7 +55,7 @@ function App() {
 
       
 
-      
+      <Transform />
 
       <Footer/>
     </>
