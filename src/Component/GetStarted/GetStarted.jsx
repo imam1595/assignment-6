@@ -10,7 +10,7 @@ const GetStarted = () => {
 
             <div className='container mx-auto space-y-10 mt-20'>
                 <div className='text-center space-y-5'>
-                    <h1 className='text-3xl'>Get Started in 3 Steps</h1>
+                    <h1 className='text-3xl font-bold'>Get Started in 3 Steps</h1>
                     <h5>Start using premium digital tools in minutes, not hours</h5>
                 </div>
 

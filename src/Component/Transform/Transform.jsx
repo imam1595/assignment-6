@@ -5,7 +5,7 @@ const Transform = () => {
         <div className='bg-accent p-20 mt-10'>
             <div className='container mx-auto space-y-10'>
                 <div className='text-center space-y-4'>
-                    <h1 className='text-3xl'>Ready to Transform Your Workflow?</h1>
+                    <h1 className='text-3xl font-semibold'>Ready to Transform Your Workflow?</h1>
                     <h5>Join thousands of professionals who are already using Digital tools to work smarter.Start your free trial today.</h5>
                 </div>
 
