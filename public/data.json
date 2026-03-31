@@ -1,0 +1,69 @@
+[
+  {
+    "id": 1,
+    "name": "Starter",
+    "description": "Perfect for individuals just getting started with their professional journey.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "Free Forever",
+    "tagType": "new",
+    "features": ["3 Basic Templates", "Export to PDF", "Community Support"],
+    "icon": "https://upload.wikimedia.org/wikipedia/en/8/87/Kimi-logo-2025.png"
+  },
+  {
+    "id": 2,
+    "name": "Professional",
+    "description": "Advanced tools for seasoned pros who need a competitive edge.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "Most Popular",
+    "tagType": "popular",
+    "features": ["100+ Templates", "ATS Optimization", "Unlimited Exports", "Custom Branding"],
+    "icon": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/perplexity-ai-icon.png"
+  },
+  {
+    "id": 3,
+    "name": "Executive",
+    "description": "The ultimate suite for high-level leaders and career changers.",
+    "price": 190,
+    "period": "yearly",
+    "tag": "Best Value",
+    "tagType": "best seller",
+    "features": ["All Pro Features", "AI Cover Letter Generator", "1-on-1 Resume Review", "Priority Support"],
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Mistral_AI_logo_%282025%E2%80%93%29.svg/1280px-Mistral_AI_logo_%282025%E2%80%93%29.svg.png"
+  },
+  {
+    "id": 4,
+    "name": "Team",
+    "description": "Collaborative features for small agencies and recruitment teams.",
+    "price": 49,
+    "period": "monthly",
+    "tag": "Collaboration",
+    "tagType": "new",
+    "features": ["5 User Licenses", "Shared Workspace", "Team Analytics", "Admin Dashboard"],
+    "icon": "https://brandlogos.net/wp-content/uploads/2025/08/meta_ai-logo_brandlogos.net_xjwry.png"
+  },
+  {
+    "id": 5,
+    "name": "Lifetime Pro",
+    "description": "Pay once and own the entire Professional suite forever.",
+    "price": 499,
+    "period": "one-time",
+    "tag": "Limited Offer",
+    "tagType": "popular",
+    "features": ["Lifetime Updates", "100+ Templates", "Ad-free Experience", "Premium Icons"],
+    "icon": "https://img.alicdn.com/imgextra/i3/O1CN01zaxxvj1p4f0VrY17j_!!6000000005307-54-tps-180-180.apng"
+  },
+  {
+    "id": 6,
+    "name": "Enterprise",
+    "description": "Custom solutions for large-scale organizations and universities.",
+    "price": 999,
+    "period": "yearly",
+    "tag": "Scalable",
+    "tagType": "best seller",
+    "features": ["Unlimited Users", "SSO Integration", "API Access", "Dedicated Account Manager"],
+    "icon": "rr.png"
+
+  }
+]
