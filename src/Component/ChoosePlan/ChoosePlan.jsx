@@ -4,7 +4,7 @@ import ChoosePlanCard from '../ChoosePlanCard/ChoosePlanCard';
 const ChoosePlan = ({datumPromise}) => {
 
     const datum = use(datumPromise);
-    console.log(datum);
+    // console.log(datum);
 
     return (
         <div className='mt-20 mb-20 p-10 space-y-10'>

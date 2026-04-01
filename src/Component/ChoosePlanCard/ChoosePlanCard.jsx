@@ -2,7 +2,7 @@ import React from 'react';
 import ChooseFeatureCard from '../ChooseFeatureCard/ChooseFeatureCard';
 
 const ChoosePlanCard = ({data}) => {
-    console.log(data);
+    // console.log(data);
 
 
     const features = data.features;

@@ -25,8 +25,6 @@ const datumPromise = getDatum();
 
 function App() {
 
-  
-  console.log(datumPromise);
 
   const [activeTab, setActiveTab] = useState("products")
 
