@@ -1,5 +1,6 @@
 import React from 'react';
 import { PiPlayPauseThin } from 'react-icons/pi';
+import banner from '../../assets/banner.png'
 
 const Hero = () => {
     return (
@@ -27,7 +28,7 @@ const Hero = () => {
                 </div>
 
                 <img
-                src="/src/assets/banner.png"
+                src={banner}
                 className="rounded-lg shadow-2xl"
                 />
             </div>

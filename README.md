@@ -14,3 +14,28 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+
+
+
+
+
+1. Name : Learn2Grow
+
+2. Description: A place where we learn skills to build and grow our career.
+
+3. Technologies: JavaScript,
+                React.js,
+                Tailwind.css,
+                DaisyUI,
+                React-icon,
+                React-Tostify,
+                JSON,
+                Vite
+
+4. Features:  User-friendly,
+            Dynamic,
+            Responsive
+
+                

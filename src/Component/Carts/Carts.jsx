@@ -1,6 +1,7 @@
 import React from 'react';
 import CartCard from './CartCard';
 import { toast } from 'react-toastify';
+import empty from '../../assets/empty.webp'
 
 const Carts = ({showCarts, setShowCarts}) => {
 
@@ -20,7 +21,7 @@ const Carts = ({showCarts, setShowCarts}) => {
                 (
                     <div className='container mx-auto p-10 shadow-lg border border-gold-200 mb-10 rounded-lg'>
                         <div className='flex flex-col justify-center items-center'>
-                            <img className='h-50 w-50' src="/src/assets/4852154.webp" alt="Empty cart pic" />
+                            <img className='h-50 w-50' src={empty} alt="Empty cart pic" />
                             <h1 className='text-3xl font-bold'>Your Cart is Empty.</h1>
                         </div>
                     </div>
