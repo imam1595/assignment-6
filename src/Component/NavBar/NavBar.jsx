@@ -3,7 +3,7 @@ import { CiShoppingCart } from 'react-icons/ci';
 
 const NavBar = ({showCarts}) => {
     return (
-        <div className="navbar justify-around items-center bg-base-100 shadow-sm">
+        <div className="navbar flex-col lg:flex-row lg:justify-around lg:items-center bg-base-100 shadow-sm">
             <a className="text-3xl font-bold"><span className='text-accent'>DigiTools</span></a>
             
             <ul className='flex flex-col lg:flex-row lg:gap-8'>
