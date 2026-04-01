@@ -6,10 +6,17 @@ const Datum = ({datumPromise, showCarts, setShowCarts}) => {
 
     // console.log(datum);
     return (
-        <div className='container mx-auto lg:grid grid-cols-3 gap-8'>
-            {
-                datum.map(data => <Card key={data.id} data={data} showCarts={showCarts} setShowCarts={setShowCarts} />)
-            }
+        <div className="container mx-auto px-4 py-10">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                {datum.map((data) => (
+                    <Card
+                        key={data.id}
+                        data={data}
+                        showCarts={showCarts}
+                        setShowCarts={setShowCarts}
+                    />
+                ))}
+            </div>
         </div>
     );
 };

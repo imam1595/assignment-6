@@ -15,7 +15,7 @@ const ChoosePlan = ({datumPromise}) => {
                     <h5>Choose the plan that fits your needs. Upgrade or downgrade anytime.</h5>
                 </div>
 
-                <div className='container mx-auto lg:grid grid-cols-3 gap-8 mt-10'>
+                <div className='container mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8 mt-10'>
                     {
                         datum.slice(0, 3).map(data => <ChoosePlanCard key={data.id} data={data} />)
                     }

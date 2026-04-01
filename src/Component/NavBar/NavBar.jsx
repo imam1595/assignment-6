@@ -3,10 +3,10 @@ import { CiShoppingCart } from 'react-icons/ci';
 
 const NavBar = ({showCarts}) => {
     return (
-        <div className="navbar justify-around bg-base-100 shadow-sm">
+        <div className="navbar justify-around items-center bg-base-100 shadow-sm">
             <a className="text-3xl font-bold"><span className='text-accent'>DigiTools</span></a>
             
-            <ul className='flex gap-8'>
+            <ul className='flex flex-col lg:flex-row lg:gap-8'>
                 <li>Products</li>
                 <li>Features</li>
                 <li>Pricing</li>

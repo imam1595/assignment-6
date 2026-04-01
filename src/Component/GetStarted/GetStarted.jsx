@@ -15,7 +15,7 @@ const GetStarted = () => {
                 </div>
 
                 <div>
-                    <div className='flex justify-between items-center'>
+                    <div className='grid grid-cols-1 justify-items-center gap-6 lg:flex lg:justify-between lg:items-center'>
                         
 
                         <div className='h-90 w-90 shadow-xl flex flex-col items-center justify-center text-center relative'>
