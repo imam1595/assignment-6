@@ -21,9 +21,12 @@ const getDatum = async () => {
   return res.json();
 }
 
+const datumPromise = getDatum();
+
 function App() {
 
-  const datumPromise = getDatum();
+  
+  console.log(datumPromise);
 
   const [activeTab, setActiveTab] = useState("products")
 
