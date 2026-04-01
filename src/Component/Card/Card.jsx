@@ -44,7 +44,7 @@ const Card = ({data, setShowCarts}) => {
             <div className="card-body">
                 
                 <div className='flex justify-between'>
-                    <img className='h-10 w-10 object-contain' src={data.icon} alt="" />
+                    <img className='h-10 w-10 object-contain' src={data.icon} alt="icon" />
                     <span className="badge badge-xs badge-warning">{data.tagType}</span>
                 </div>
 

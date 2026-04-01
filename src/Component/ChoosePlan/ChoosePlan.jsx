@@ -7,7 +7,7 @@ const ChoosePlan = ({datumPromise}) => {
     console.log(datum);
 
     return (
-        <div className='bg-red-300 mt-20 mb-20 p-10'>
+        <div className='mt-20 mb-20 p-10 space-y-10'>
 
             <div className='container mx-auto'>
                 <div className='text-center'>

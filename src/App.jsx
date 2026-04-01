@@ -47,7 +47,7 @@ function App() {
         (
           <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
             <Datum datumPromise={datumPromise} activeTab={activeTab} showCarts={showCarts} setShowCarts={setShowCarts} />
-          </Suspense>
+          </Suspense> 
         )   :
 
         (

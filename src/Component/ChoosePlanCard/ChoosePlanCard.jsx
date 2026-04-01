@@ -8,12 +8,23 @@ const ChoosePlanCard = ({data}) => {
     const features = data.features;
 
     return (
-        <div className="card bg-base-100 shadow-lg">
+        <div className={`card shadow-lg relative ${
+            data.tagType === "popular" ? "bg-accent" : "bg-base-100"
+        }`}>
+
+            {
+                data.tagType === "popular" ?
+                (
+                    <span className="badge badge-xs badge-warning absolute top-0 -translate-y-1/2 left-1/2 -translate-x-1/2">{data.tag}</span>
+                ) : null
+            }
+            
+
             <div className="card-body">
                 
                 <div className='flex justify-between'>
                     <img className='h-10 w-10 object-contain' src={data.icon} alt="" />
-                    <span className="badge badge-xs badge-warning">{data.tagType}</span>
+                    
                 </div>
 
                 <h1 className='text-3xl font-bold'>{data.name}</h1>
@@ -29,7 +40,19 @@ const ChoosePlanCard = ({data}) => {
 
                 </ul>
                 <div className="mt-6">
-                    <button className='btn btn-accent w-full'>Buy Now</button>
+                    <button className={`${
+                        data.tagType === "popular" ? 'btn' : 'btn btn-accent'
+                    } w-full`}>
+                        {
+                            data.tagType === 'new' && 'Get Started Free'
+                        }
+                        {
+                            data.tagType === 'popular' && 'Start Pro Trial'
+                        }
+                        {
+                            data.tagType === 'best seller' && 'Contact sales'
+                        }
+                    </button>
                 </div>
             </div>
         </div>
